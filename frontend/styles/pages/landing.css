@@ -1,0 +1,226 @@
+/* Center all text content */
+.hero {
+    padding: var(--space-xl) 0;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* Hero Section */
+.hero h1 {
+    font-size: 48px;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    color: var(--text-secondary);
+    font-size: var(--font-md);
+    margin-bottom: var(--space-lg);
+}
+
+.get-started {
+    background-color: var(--primary);
+    color: white;
+    padding: var(--space-sm) var(--space-lg);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.get-started:hover {
+    background-color: var(--primary-dark);
+}
+
+
+
+
+/* Features Section */
+.features {
+    padding: var(--space-xl) 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: var(--font-2xl);
+    margin-bottom: var(--space-md);
+}
+
+.features-desc {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-xl);
+}
+
+.feature {
+    margin-bottom: var(--space-xl);
+}
+
+.feature h3 {
+    font-size: var(--font-lg);
+    margin-bottom: var(--space-sm);
+}
+
+.feature p {
+    color: var(--text-secondary);
+    margin-bottom: var(--space-md);
+}
+
+.feature-actions {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+}
+
+.feature-actions button {
+    background-color: var(--primary);
+    color: white;
+    padding: var(--space-xs) var(--space-md);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+}
+
+.feature-actions a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+
+
+
+/* Testimonials Section */
+.testimonials {
+    padding: var(--space-xl) 0;
+    background-color: var(--surface);
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: var(--font-2xl);
+    margin-bottom: var(--space-xl);
+}
+
+.testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial h3 {
+    font-size: var(--font-lg);
+    margin-bottom: var(--space-xs);
+}
+
+.rating {
+    color: #FFD700; /* Gold color for stars */
+    margin-bottom: var(--space-sm);
+}
+
+.testimonial p {
+    color: var(--text-secondary);
+}
+
+/* Add hover effect for the testimonial card */
+.testimonial:hover {
+    transform: translateY(-2px);
+    transition: var(--transition-base);
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: var(--space-xl) 0;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newsletter h2 {
+    font-size: var(--font-2xl);
+    margin-bottom: var(--space-lg);
+}
+
+.newsletter-form {
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.newsletter-form input {
+    padding: var(--space-sm);
+    border: 1px solid #ccc;
+    border-radius: var(--radius-md);
+    width: 300px;
+}
+
+.newsletter-form button {
+    padding: var(--space-sm) var(--space-md);
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.newsletter-form button:hover {
+    background-color: var(--primary-dark);
+}
+
+
+/* Footer */
+.footer {
+    padding: var(--space-xl) 0;
+    border-top: 1px solid #eee;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-brand {
+    color: var(--primary);
+    font-size: var(--font-lg);
+    margin-bottom: var(--space-md);
+}
+
+.footer-links {
+    display: flex;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+}
+
+.footer-links a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-md);
+    border-top: 1px solid #eee;
+}
+
+.language-select {
+    padding: var(--space-xs) var(--space-sm);
+    border: 1px solid #ccc;
+    border-radius: var(--radius-sm);
+}
+
+.legal {
+    color: var(--text-secondary);
+    font-size: var(--font-sm);
+}
+
+.legal a {
+    color: var(--primary);
+    text-decoration: none;
+    margin-left: var(--space-sm);
+}

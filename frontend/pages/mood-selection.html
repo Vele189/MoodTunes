@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodTunes - Select Your Mood</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/components/navbar.css">
+    <link rel="stylesheet" href="../styles/components/mood.css">
+    <link rel="stylesheet" href="../styles/components/player.css">
+    <link rel="stylesheet" href="../styles/components/weather.css">
+    <script type="module" src="../scripts/api.js"></script>
+    <script type="module" src="../scripts/mood.js"></script>
+    <script type="module" src="../scripts/player.js"></script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <a href="../index.html" class="navbar-brand">MoodTunes</a>
+            <ul class="navbar-menu">
+                <li><a href="mood-selection.html" class="navbar-link">Mood Selection</a></li>
+                <li><a href="#" class="navbar-link">Weather</a></li>
+            </ul>
+            <button class="navbar-button">Sign Up</button>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section class="current-weather">
+            <div class="weather-display">
+                <div class="temp-circle">25°</div>
+                <div class="weather-info">
+                    <h3 class="weather-temp">Sunny</h3>
+                    <p class="weather-condition">Clear sky</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mood Selection -->
+        <section class="mood-selection">
+            <h1>Select Your Mood</h1>
+            <div class="mood-buttons">
+                <button class="mood-button happy">Happy</button>
+                <button class="mood-button sad">Sad</button>
+                <button class="mood-button energetic">Energetic</button>
+                <button class="mood-button calm">Calm</button>
+                <button class="mood-button angry">Angry</button>
+            </div>
+        </section>
+    
+        <!-- Player Section -->
+        <section class="player-container">
+            <!-- Left Column -->
+            <div class="player-info">
+                <div class="mood-icon">
+                    <!-- Cloud icon or image -->
+                </div>
+                <h2>Cloudy Vibe</h2>
+                <div class="player-controls">
+                    <button class="control-btn">←</button>
+                    <button class="control-btn play">▶</button>
+                    <button class="control-btn">→</button>
+                </div>
+            </div>
+    
+            <!-- Right Column -->
+            <div class="playlist-wrapper">
+                <div class="playlist-tracks">
+                    <div class="track-item">
+                        <img src="path/to/placeholder.jpg" alt="" class="track-image">
+                        <div class="track-info">
+                            <h3 class="track-title">Song Title</h3>
+                            <p class="track-artist">Singer</p>
+                        </div>
+                    </div>
+                    <!-- More track items -->
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
